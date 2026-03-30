@@ -1,4 +1,4 @@
-# 项目管理系统
+﻿# 项目管理系统
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
@@ -21,6 +21,13 @@ AI Agent 在复杂项目中需要：
 
 本系统提供以上所有功能，并在真实多 Agent 项目中经过验证。
 
+### 为什么选这个系统？
+
+与代码驱动的框架（MetaGPT、AutoGen）不同，这是**方法论优先**的方法：
+- **文档驱动** — 无依赖，纯 Markdown
+- **学习"怎么做"** — 教流程，不只是执行
+- **可适配** — 适用于任何 Agent 平台
+- **生产就绪** — 经过实战验证的模板和工作流
 ## 平台兼容性
 
 | 平台 | 支持 | 说明 |
