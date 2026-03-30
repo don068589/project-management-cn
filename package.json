@@ -1,0 +1,45 @@
+{
+  "name": "project-management",
+  "version": "1.6.0",
+  "description": "A comprehensive project management system for AI agents and human-AI teams. Full lifecycle management with templates, quality gates, and self-sustaining runtime.",
+  "keywords": [
+    "project-management",
+    "workflow",
+    "templates",
+    "agent",
+    "openclaw",
+    "ai",
+    "productivity"
+  ],
+  "author": "OpenClaw Community",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openclaw/project-management"
+  },
+  "bugs": {
+    "url": "https://github.com/openclaw/project-management/issues"
+  },
+  "homepage": "https://github.com/openclaw/project-management#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "docs/",
+    "templates/",
+    "tools/",
+    "LICENSE"
+  ],
+  "main": "SKILL.md",
+  "scripts": {
+    "check": "python3 tools/system-check.py 2>/dev/null || python tools/system-check.py",
+    "dashboard": "python3 tools/dashboard.py 2>/dev/null || python tools/dashboard.py"
+  },
+  "openclaw": {
+    "skillType": "skill",
+    "requires": [],
+    "documentation": "docs/coordinator.md"
+  }
+}
